@@ -1,0 +1,9 @@
+.DS_Store
+**/.DS_Store
+
+# General
+dist/
+bower_components
+node_modules
+
+# Project Specific

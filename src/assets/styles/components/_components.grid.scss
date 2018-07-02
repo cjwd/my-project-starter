@@ -1,0 +1,28 @@
+
+/*=============================================
+=            Getting Griddy            =
+=============================================*/
+.grid {
+  display: grid;
+}
+
+
+
+/*----------  You Sooo Flexy!  ----------*/
+
+.flex {
+  display: flex;
+}
+
+
+/*----------  Basic Layout  ----------*/
+
+.content {
+  grid-template-columns: 150px auto;
+  grid-gap: 1em;
+}
+
+
+
+/*=====  End of Getting Griddy  ======*/
+

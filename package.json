@@ -1,0 +1,39 @@
+{
+  "name": "my-project-starter",
+  "version": "1.0.0",
+  "description": "My personal starter files for my personal projects using InuitCSS, pug and Webpack",
+  "main": "main.js",
+  "repository": "https://github.com/cjwd/inuit-starter",
+  "author": "Chinara James",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "NODE_ENV=production webpack",
+    "start": "npm run build -- --watch",
+    "dev": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "inuitcss": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.3",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
